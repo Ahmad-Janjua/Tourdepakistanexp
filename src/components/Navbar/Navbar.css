@@ -1,0 +1,13 @@
+.toggler {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #4053F0;
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .toggler {
+        display: block;
+    }
+}
