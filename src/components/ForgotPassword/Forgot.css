@@ -1,0 +1,49 @@
+.otp-input input {
+    width: 2.4rem !important;
+    height: 2.9rem !important;
+    margin: 0 0.2rem;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.resend-otp {
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 0.8rem;
+}
+
+.resend-otp p {
+    margin: 0;
+}
+
+.resend-otp button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.resend-otp button:hover {
+    text-decoration: underline;
+}
+
+.pointer-none {
+    pointer-events: none;
+}
